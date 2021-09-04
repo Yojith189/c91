@@ -1,0 +1,35 @@
+body{
+  background: linear-gradient(rgb(33, 200, 255) 100%, deepskyblue 0%); 
+  font-family: 'Noto Sans', sans-serif;
+
+}
+.Login_DivOne,.Login_DivTwo{
+    background:whitesmoke;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+}
+#playerone_name , #playertwo_name {
+  margin-left: 12px;
+  display: inline-block;
+
+
+}
+#Output{
+background-color: floralwhite;
+border-radius: 10px;
+border-top: 10px solid orangered;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+<html>
+    <head>
+<title>GameBoy</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="Game.css" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h4 id="playerone_name"> </h4> <span id="playerone_score"></span>
+    <br><br>
+    <h4 id="playertwo_name"> </h4> <span id="playertwo_score"></span>
+    <div class= 'container'>
+<center>
+<h2 style="color:aliceblue;">Guess The WOOORDDD!!!</h2>
+<br><br>
+<h3 id="Question"></h3>
+
+<h3 id="Answer"></h3> 
+<div id="Output" class="col-lg-6">  </div>
+<br><br>
+<label>Type The Word In The Box &nbsp; <b class="text-danger"> &nbsp; &nbsp; &nbsp; Try Placing Words More Than 4+ Letters</b></label>
+<br><br>
+<input type="text" placeholder="Type a WOOOOOOOOOORRRRRRRRRRRRRDDDDDDDDDDDDDDD" class="form-control" id="THETEXT">
+<br><br>
+<button class="btn btn-warning"  onclick="Send()">Send</button>
+  
+</center>
+</div>
+
+
+
+
+
+
+<script src="Game_Page.js"></script>
+</body>
+</html>
